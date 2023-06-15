@@ -236,15 +236,9 @@ section.parallax::after {
     #txt-oque{
         text-align: center;
     }
-    #texto-metodologia p{
-        text-align: center;
-        width: auto;
+    #texto-oque p{
+        padding: 10px 0;
     }
-    #texto-metodologia {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-
 }
 
 #engrenagem {
@@ -328,7 +322,18 @@ section.parallax::after {
 
     animation: crescer ease 2s infinite;
 }
-
+@media(max-width:1050px){
+    #texto-metodologia p{
+        text-align: center;
+        width: auto;
+        padding: 10px 0;
+    }
+    #texto-metodologia {
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 0;
+    }
+}
 @keyframes crescer{
     25% {
          transform: rotate(45deg);
@@ -566,7 +571,7 @@ footer {
     }
     
     .cont-footer p {
-        margin: 20px 20px;
+        margin: 20px 40px;
     }
 }
 
