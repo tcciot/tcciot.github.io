@@ -110,6 +110,10 @@ header>ul>li>a {
     header {
         justify-content: space-between;
     }
+    
+    header img{
+        margin: 0 20px;
+    }
 }
 
 /*_________________________________________________________________________________________________________*/
@@ -169,7 +173,7 @@ section.parallax::after {
 
 /*_________________________________________________________________________________________________________*/
 
-/* O QUE É (ABNER) */
+/* O QUE É */
 #oque {
     background-color: var(--roxo);
     color: var(--branco);
@@ -294,7 +298,7 @@ section.parallax::after {
 /*_________________________________________________________________________________________________________*/
 
 
-/*METODOLIGIA (?)*/
+/*METODOLIGIA*/
 
 
 #metodologia {
@@ -342,7 +346,7 @@ section.parallax::after {
 /*_________________________________________________________________________________________________________*/
 
 
-/* GRAFICOS (DAVI)*/
+/* GRAFICOS */
 
 #graficos {
     background-color: var(--roxo);
@@ -432,7 +436,7 @@ section.parallax::after {
 
 /*_________________________________________________________________________________________________________*/
 
-/*quiz (?)*/
+/*quiz */
 
 #quiz {
     min-height: 600px;
@@ -559,6 +563,10 @@ footer {
         display: flex;
         flex-direction: column;
         padding: 40px 0;
+    }
+    
+    .cont-footer p {
+        margin: 20px 20px;
     }
 }
 
