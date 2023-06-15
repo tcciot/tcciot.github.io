@@ -236,9 +236,6 @@ section.parallax::after {
     #txt-oque{
         text-align: center;
     }
-    #texto-oque p{
-        padding: 10px 0;
-    }
 }
 
 #engrenagem {
@@ -326,7 +323,6 @@ section.parallax::after {
     #texto-metodologia p{
         text-align: center;
         width: auto;
-        padding: 10px 0;
     }
     #texto-metodologia {
         margin-left: 50px;
