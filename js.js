@@ -102,7 +102,7 @@ function questaoselecionada(event){
             button.classList.add("incorreto")
 
         }
-
+            button.disabled = true
     })
 
     proximabotao.classList.remove("hide")
